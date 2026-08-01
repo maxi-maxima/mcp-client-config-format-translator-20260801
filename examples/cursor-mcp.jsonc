@@ -1,0 +1,2 @@
+// Cursor-style MCP config
+{"mcpServers":{"filesystem":{"command":"npx","args":["-y","@modelcontextprotocol/server-filesystem","."],"env":{}}}}

@@ -1,0 +1,11 @@
+[project]
+name = "mcp-client-config-format-translator-20260801"
+version = "0.1.0"
+description = "Normalize MCP client configuration files and emit portable server snippets."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "maxi-maxima"}]
+
+[project.scripts]
+mcp-client-config-format-translator-20260801 = "mcp_client_config_format_translator_20260801.cli:main"
