@@ -11,6 +11,7 @@ MCP adoption is accelerating, while Chinese and global developer communities kee
 ```bash
 python -m mcp_client_config_format_translator_20260801.cli examples/cursor-mcp.jsonc
 python -m mcp_client_config_format_translator_20260801.cli examples/cursor-mcp.jsonc --target mcpServers
+python -m mcp_client_config_format_translator_20260801.cli examples/cursor-mcp.jsonc --diff examples/claude-mcp.json
 python -m unittest discover -s tests
 ```
 
@@ -27,5 +28,4 @@ python -m unittest discover -s tests
 ## Roadmap
 
 - Import presets for more clients
-- Diff two client configs
 - Redacted HTML reports for team review

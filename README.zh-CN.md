@@ -11,6 +11,7 @@ MCP 采用速度很快，但中英文开发者社区都在反馈 Claude Code、C
 ```bash
 python -m mcp_client_config_format_translator_20260801.cli examples/cursor-mcp.jsonc
 python -m mcp_client_config_format_translator_20260801.cli examples/cursor-mcp.jsonc --target mcpServers
+python -m mcp_client_config_format_translator_20260801.cli examples/cursor-mcp.jsonc --diff examples/claude-mcp.json
 python -m unittest discover -s tests
 ```
 
@@ -27,5 +28,4 @@ python -m unittest discover -s tests
 ## 路线图
 
 - 增加更多客户端导入预设
-- 对比两个客户端配置
 - 生成脱敏 HTML 团队审阅报告
